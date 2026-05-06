@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practical - 10 Exercises Demo</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f6dce9b617.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark d-md-none sticky-top p-2">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="navbar-brand bg-dark">JS PRACTICAL</span>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0 d-flex sidebar">
+        <div class="offcanvas-md offcanvas-start bg-dark text-white sidebar-container" id="sidebarMenu">
+            <div class="offcanvas-header border-bottom border-secondary">
+                <button type="button" class="btn-close btn-close-white d-md-none" data-bs-dismiss="offcanvas"
+                    data-bs-target="#sidebarMenu"></button>
+            </div>
+            <h5 class="sticky-top pt-2 mx-3 bg-dark">JS PRACTICAL</h5>
+            <div class="offcanvas-body p-0">
+                <ul class="nav flex-column w-100 p-2" id="menu">
+                    <li class="nav-item" data-bs-dismiss="offcanvas"><a href="ex1.html">1. Dark Mode</a></li>
+                    <li class="nav-item" data-bs-dismiss="offcanvas"><a href="ex2.html">2. Show/Hide Password</a>
+                    </li>
+                    <li class="nav-item" data-bs-dismiss="offcanvas"><a href="ex3.html">3. Character Counter</a>
+                    </li>
+                    <li class="nav-item" data-bs-dismiss="offcanvas"><a class="active" href="ex4.html">4. Simple Cart</a></li>
+                    <li class="nav-item" data-bs-dismiss="offcanvas"><a href="ex5.html">5. Search Filter</a></li>
+                    <li class="nav-item" data-bs-dismiss="offcanvas"><a href="ex6.html">6. Modal & Toast</a></li>
+                    <li class="nav-item" data-bs-dismiss="offcanvas"><a href="ex7.html">7. Mini Quiz</a></li>
+                    <li class="nav-item" data-bs-dismiss="offcanvas"><a href="ex8.html">8. Image Slider</a></li>
+                    <li class="nav-item" data-bs-dismiss="offcanvas"><a href="ex9.html">9. To-Do List</a></li>
+                    <li class="nav-item" data-bs-dismiss="offcanvas"><a href="ex10.html">10. Countdown Timer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content flex-grow-1 p-4">      
+            <div id="ex4" class="exercise-section">
+                <h3>Bài 4: Simple Cart</h3>
+                <div class="demo-area">
+                    <p>Sản phẩm: <strong>Laptop Dell XPS</strong></p>
+                    <p>Giá: 25.000.000 VNĐ</p>
+                    Số lượng: <input class="form-control w-25 my-3" type="number" id="input-4" value="1" min="1">
+                    <h4 class="text-danger">Tổng tiền: <span id="total-4">25,000,000</span> VNĐ</h4>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
